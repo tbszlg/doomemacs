@@ -73,7 +73,7 @@
             dabbrev-upcase-means-case-search t)
       (add-to-list 'dabbrev-ignored-buffer-modes 'pdf-view-mode)
 
-      (add-hook! (prog-mode text-mode conf-mode comint-mode minibuffer-setup
+      (add-hook! (prog-mode text-mode conf-mode comint-mode
                             eshell-mode)
         (defun +corfu-add-cape-dabbrev-h ()
           (add-hook 'completion-at-point-functions #'cape-dabbrev 20 t)))))
