@@ -107,7 +107,7 @@ following additional binds:
 In the minibuffer, sometimes autocompletion can interfere with your goal;
 Imagine you're composing a search pattern incrementally, and you find what you
 want early, with only half the word. You then press [[kbd:RET]]. If completion
-kicked in as you typed, you may loose the match, since it will complete the
+kicked in as you typed, you may lose the match, since it will complete the
 first candidate. On the other hand, if you were paying attention to the
 suggestions and selecting one appropriate, that's desired behavior, and you may
 even desire to modify the prompt further (if you were composing a command
